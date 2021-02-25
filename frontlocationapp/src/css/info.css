@@ -1,0 +1,179 @@
+.body-bg-info{
+  background-image: url("../img/whitebg.jpg");
+  width: 100%;
+  padding: 35px 0;
+  height: auto!important;
+  background-size: cover;
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-info{
+  background: white;
+  width: 80%;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid #D5D7D9;
+  display: flex;
+  padding: 75px;
+  margin: 35px 0;
+  font-weight: bold;
+}
+
+.main-info-rib{
+  background: white;
+  width: 80%;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid #D5D7D9;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  justify-content: space-between;
+  padding: 75px;
+  margin: 35px 0;
+  font-weight: bold;
+}
+
+.upload-rib-btn{
+  margin-left: 0px;
+  padding: 5px 25px;
+  border-radius: 25px;
+  border: 2px solid #7912eb!important;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 25px;
+}
+.upload-rib-btn:hover{
+  background-image:-webkit-linear-gradient(bottom left, #fff, #fff, #fff, #fff);
+  color: #7912eb;
+  padding: 5px 25px;
+  border-radius: 25px;
+  border: 2px solid #7912eb;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 25px;
+}
+
+
+.generals-infos-col{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+}
+
+.filled-infos-col{
+  width: 30%;
+  height: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  padding-left: 35px;
+}
+
+.button-col{
+  width: 30%;
+  height: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+}
+
+
+
+.birthdate, .surname, .name{
+  height: 33%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.phone, .mail{
+  height: 33%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.filled-birthdate, .filled-surname, .filled-name{
+  height: 33%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.filled-phone, .filled-mail{
+  height: 33%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.filled-mail, .filled-phone{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modif-btn{
+  background-image: -webkit-linear-gradient(bottom left, #6b5fb8, #5e31c4, #7912eb, #7912eb);
+  background-image: -o-linear-gradient(bottom left, #6b5fb8, #5e31c4, #7912eb, #7912eb);
+  background-image: linear-gradient(to top right, #6b5fb8, #5e31c4, #7912eb, #7912eb);
+  color: white;
+  border: 2px solid #7912eb;
+  padding: 5px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.modif-btn:hover{
+  background-image:-webkit-linear-gradient(bottom left, #fff, #fff, #fff, #fff);;
+  color: #7912eb;
+  padding: 5px 25px;
+  border-radius: 25px;
+  border: 2px solid #7912eb;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.uploaded-rib{
+  width: 600px;
+}
+
+@media screen and (max-width: 760px){
+  p{
+    margin-bottom: 0px;
+  }
+  .uploaded-rib{
+    width: 350px;
+  }
+
+  .modif-btn{
+    display: none;
+  }
+ .generals-infos-col{
+    width: 40%;
+    padding-right: 15px;
+    border-right: 2px solid #D5D7D9;
+  }
+ .filled-infos-col{
+   padding-left: 15px;
+    width: 60%;
+  }
+  .main-info{
+    padding: 10px;
+  }
+}

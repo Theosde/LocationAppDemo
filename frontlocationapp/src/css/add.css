@@ -1,0 +1,30 @@
+.addcard{
+  height: 450px;
+  min-width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid linear-gradient(to right top, #6b5fb8, #5e31c4, #7912eb, #7912eb);
+  border-radius: 15px;
+  margin: 15px 25px;
+  transition: 1s;
+  background-image: url("../img/add-icon.png");
+  background-size: cover;
+  max-width: 350px;
+
+}
+
+.addcard:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  cursor: pointer;
+  background-image: url("../img/add-icon2.png");
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 760px){
+  .addcard{
+    margin: 10px;
+  }
+}

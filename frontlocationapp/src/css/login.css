@@ -1,0 +1,59 @@
+.body-bg-login{
+  background-image: url("../img/whitebg.jpg");
+  width: 100%;
+  height: 100vh!important;
+  background-size: cover;
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+}
+
+body{
+  background-color: white;
+}
+
+.form-config-login{
+  width: 600px!important;
+  height: 415px;
+  border: 2px solid #D5D7D9;
+  border-radius: 25px;
+  background-color: white;
+
+}
+.logo{
+  background-image: url("../img/logo_thales.png");
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+}
+
+.form-group{
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+button{
+  margin-left: 150px;
+  width: 300px;
+}
+.btn-primary{
+  border-style: none;
+  background-image:linear-gradient(to right top, #6b5fb8, #5e31c4, #7912eb, #7912eb)!important;
+  border-radius: 25px;
+}
+
+
+a{
+  color: black;
+}
+a:hover{
+  color:#7405ab;
+}
+
+@media screen and (max-width: 760px){
+  .form-config-login{
+    width: 400px!important;
+  }
+}

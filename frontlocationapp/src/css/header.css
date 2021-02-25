@@ -1,0 +1,118 @@
+.header-bg{
+  display: flex;
+  justify-content: space-space-between;
+  align-items: center;
+  height: 70px;
+  background: rgb(2,0,36);
+  background-image: linear-gradient(to right top, #6b5fb8, #5e31c4, #7912eb, #7912eb);
+  position: sticky;
+  top:0;
+  z-index:1;
+}
+
+ul{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+
+.Link{
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.Link:hover{
+  text-decoration: none;
+  color:white;
+}
+
+.left{
+  margin-left: 15px;
+}
+
+.right{
+  margin-right: 15px;
+}
+
+.icon-2{
+  background-image: url("../img/logo-menu-appart.png");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.icon-1{
+  background-image: url("../img/my-info.png");
+  width: 40px;
+  height: 32px;
+  background-size: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.icon-3{
+  background-image: url("../img/my-doc.png");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.icon-4{
+  background-image: url("../img/mess.png");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 760px){
+  .header-bg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to right top, #6b5fb8, #5e31c4, #7912eb, #7912eb);
+    top:0;
+    z-index:1;
+  }
+
+  ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:55px;
+    cursor: pointer;
+  }
+
+  span{
+    display: none;
+  }
+
+}

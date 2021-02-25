@@ -1,0 +1,114 @@
+.body-bg-suscribe{
+  background-image: url("../img/whitebg.jpg");
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-size: cover;
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+}
+
+body{
+  background-color: white;
+}
+
+.form-config{
+  width: 80%!important;
+  height: auto;
+  border: 2px solid #D5D7D9;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.form-org .form-group{
+  margin: 10px 35px;
+  width: 30%;
+}
+
+.form-org-1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-org-1 .form-group{
+  width: 50%!important;
+}
+
+button{
+  margin-left: 25%;
+  width: 50%;
+}
+.btn-primary{
+  border-style: none;
+  background-image:linear-gradient(to right top, #6b5fb8, #5e31c4, #7912eb, #7912eb)!important;
+  border-radius: 25px;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color:#7405ab;
+}
+
+.form-org{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.radioContainer{
+  display:flex;
+}
+
+.radioContainer input{
+  margin-top: 4px;
+}
+
+.radioContainer p{
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 760px){
+
+  .form-config{
+    width: 100%!important;
+    height: auto;
+    border: 2px solid #999;
+    border-radius: 25px;
+    background-color: white;
+  }
+
+  .form-org .form-group{
+    margin: 5px 10px;
+    width: 80%;
+  }
+
+  .form-org-1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 86%;
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+
+  .form-org-1 .form-group{
+    margin: 15px;
+  }
+
+  .form-org{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .body-bg-suscribe{
+    padding: 15px 15px!important;
+    flex-direction: row!important;
+    height: auto!important;
+  }
+}
